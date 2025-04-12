@@ -1,0 +1,19 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+}
+
+#resumen {
+    text-align: center;
+}
+.noticia{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 3px rgb(224, 17, 17);
+}

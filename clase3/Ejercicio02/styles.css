@@ -1,0 +1,27 @@
+h1{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: aqua;
+    font-size: 30px;
+    font-style:italic;
+    text-align:end;
+}
+h3{
+    color: rgb(142, 181, 96);
+    font-size: 25px;
+    font-style:inherit;
+    text-align:left;
+}
+h4{
+    color: blue;
+    font-size: 22px;
+    text-align: start;
+}
+h5{
+    color:brown;
+    font-size: 21px;
+    text-align: right;
+}

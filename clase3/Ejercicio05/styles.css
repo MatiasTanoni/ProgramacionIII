@@ -1,0 +1,23 @@
+.contenedor1{
+    color: red;
+    background-color: blue ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 10%;
+}
+.contenedor2{
+    color: blue;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 10%;
+}
+.tachame{
+    text-decoration: line-through;
+}
