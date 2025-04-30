@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> [D.04] Agregando y quitando propiedades </title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <p> [D.04] Agregando y quitando propiedades </p>
+    </main>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="/clase5/Ejercicio02/productos.js"></script>
+    <script> 
+        producto.forEach((p) => {
+            if (p.precio % 2 != 0) {
+                p.moneda = p.precio / 1200; 
+            }
+            else{
+                delete p.fechaDeVencimiento;
+            }
+            console.log(p)
+
+        });
+    </script>
+</body>
+</html>
