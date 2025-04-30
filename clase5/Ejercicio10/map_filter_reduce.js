@@ -94,3 +94,4 @@
 
 // let resultado = edadTotal / cantidadDeUsuarios;
 // console.log(resultado);
+// terminado cambiar nombre del commit
