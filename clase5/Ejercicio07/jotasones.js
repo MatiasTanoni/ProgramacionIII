@@ -14,11 +14,11 @@ if (!localStorage.getItem("datos"))
     preguntarId(datosIniciales);
 
     localStorage.setItem("datos",JSON.stringify(datosIniciales));
-    console.log("Se guardaron los datos correctamente");
-    alert("se guardaron correctamente los datos");
     jotasones = JSON.stringify(datosIniciales); 
     const datos = JSON.parse(jotasones);
     console.log(datos);
+    console.log("Se guardaron los datos correctamente");
+    alert("se guardaron correctamente los datos");
 }
 
 confirmacion = confirm("desea reiniciar el contenido?")
