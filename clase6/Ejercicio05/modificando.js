@@ -1,6 +1,6 @@
 
 if (!localStorage.getItem("info")) {
-    localStorage.setItem("info", JSON.stringify([]));
+    localStorage.setItem("info", JSON.stringify(remeras));
     console.log("se guardó");
 } else {
     const recuperado = JSON.parse(localStorage.getItem("info"));
