@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  color: #ffffff;
+  background: #4053bb;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type="text"],
+select {
+  width: 95%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95%;
+  color: #555;
+}
+
+#listado {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+table thead th {
+  background-color: aquamarine;
+}
+
+table tr:hover {
+  background-color: #3f2626;
+  /* Color de fondo al pasar el mouse */
+  cursor: pointer;
+  /* Cambia el cursor para indicar que es interactivo */
+}
+
+table td img {
+  width: 75px;
+  /* Ancho de la imagen */
+  height: 75px;
+  /* Altura de la imagen */
+}
+
+#prevBtn {
+  background-color: red;
+  border-radius: 10px;
+  width: 20%;
+  margin-top: 1px;
+  padding: 10px;
+}
+
+#nextBtn {
+  background-color: #cfe262;
+  border-radius: 10px;
+  width: 20%;
+  margin-top: 1px;
+  padding: 10px;
+}
+
+#nextBtn:hover {
+  background-color: #3f2626;
+  /* Color de fondo al pasar el mouse */
+  cursor: pointer;
+  /* Cambia el cursor para indicar que es interactivo */
+}
+
+#prevBtn:hover {
+  background-color: #3f2626;
+  /* Color de fondo al pasar el mouse */
+  cursor: pointer;
+  /* Cambia el cursor para indicar que es interactivo */
+}
